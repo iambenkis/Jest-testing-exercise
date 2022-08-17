@@ -1,15 +1,19 @@
 const lengthOf = require('./index');
 const reverseOf = require('./index2');
 const myCalculator = require('./index3');
-
+const capitalize = require('./index4');
+//Task 1;
 test('ben must return yes', () => {
   expect(lengthOf('ben')).toBe('Yes');
 });
 
+//Task 2
 test('benjamin must return nimajneb' , () => {
     expect(reverseOf('benjamin')).toBe('nimajneb');
 })
 
+
+//Task 3
 describe('my calculator', () => {
     const calculator1 = new myCalculator(3,2);
     test('3 + 2 is 5', () => {
@@ -73,3 +77,8 @@ describe('my calculator', () => {
         expect(calculator4.divide()).toBe('E');
       });
 });
+
+//Task 4
+test('benjamin should return Benjamin' , () => {
+    expect(capitalize('benjamin')).toBe('Benjamin'); 
+})

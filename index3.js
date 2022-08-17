@@ -1,3 +1,4 @@
+//Task 3
 class calculator {
     constructor(a,b){
         this.a = a;
