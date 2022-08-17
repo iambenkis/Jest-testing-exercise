@@ -39,3 +39,19 @@ describe('my calculator', () => {
         expect(calculator3.subtract()).toBe(0);
       });
 });
+
+describe('my calculator', () => {
+    const calculator1 = new myCalculator(3,2);
+    test('3 * 2 is 6', () => {
+      expect(calculator1.multiply()).toBe(6);
+    });
+    const calculator2 = new myCalculator(4,8);
+    test('4 * 8 is 32', () => {
+        expect(calculator2.multiply()).toBe(32);
+      });
+    const calculator3 = new myCalculator(5,0);
+    test('5 * 0 is 0', () => {
+        expect(calculator3.multiply()).toBe(0);
+      });
+});
+
