@@ -7,7 +7,7 @@ class calculator {
         return this.a + this.b;
     }
     subtract = () => {
-        return this.a>this.b? this.a-this.b: this.b-this.a;
+        return this.a-this.b;//this.a>this.b? this.a-this.b: this.b-this.a;
     }
     
     multiply = () => {
