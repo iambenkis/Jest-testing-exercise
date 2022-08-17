@@ -5,6 +5,6 @@ test('ben must return yes', () => {
   expect(lengthOf('ben')).toBe('Yes');
 });
 
-test('ben must return neb' , () => {
-    expect(reverseOf('ben')).toBe('neb');
+test('benjamin must return nimajneb' , () => {
+    expect(reverseOf('benjamin')).toBe('nimajneb');
 })
