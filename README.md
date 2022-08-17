@@ -8,7 +8,7 @@
 ## Built With
 
 - JavaScript 
-- Jest library
+- Jest package
 
 
 ## Getting Started
