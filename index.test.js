@@ -55,3 +55,21 @@ describe('my calculator', () => {
       });
 });
 
+describe('my calculator', () => {
+    const calculator1 = new myCalculator(4,2);
+    test('4 / 2 is 2', () => {
+      expect(calculator1.divide()).toBe(2);
+    });
+    const calculator2 = new myCalculator(4,8);
+    test('4 / 8 is 0.5', () => {
+        expect(calculator2.divide()).toBe(0.5);
+      });
+    const calculator3 = new myCalculator(0,5);
+    test('0 / 5 is 0', () => {
+        expect(calculator3.divide()).toBe(0);
+      });
+    const calculator4 = new myCalculator(5,0);
+    test('5 / 0 is E', () => {
+        expect(calculator4.divide()).toBe('E');
+      });
+});

@@ -15,7 +15,10 @@ class calculator {
     }
     
     divide = () => {
-        return this.a!==0 && this.b!==0 ? this.a/this.b:'E';
+        return this.b!==0 ?
+                    this.a !==0?
+                        this.a/this.b:0 
+                :'E';
     }
 }
 
